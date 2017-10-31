@@ -1,0 +1,220 @@
+
+/*style table */
+table, th, td {
+   border: 1px solid black;
+}
+.costum-table{
+  float: left;
+  margin:0. 1.2%;
+    width: 32.3333333%;
+}
+
+.right-table th,
+.right-table td {
+  border: 1px solid #e1edff;
+  padding: 1px 2px;
+}
+
+
+/*style table */
+  .right-table {
+    font-size: 8px;
+    width: 400px;
+    height:11%;
+    right: -20px;
+  }
+
+.right-table tbody tr: hover td {
+  background-color: #ffffa2 ;
+  color:#111;
+  cursor: pointer;
+}
+
+
+/*keterangan ontime,toplate,no finger */
+
+.text {
+    position: absolute;
+  margin: -50px;
+  left: 100px;
+    bottom: -100px;
+    width: 174px;
+}
+
+.button1{
+  position: absolute;
+  margin: -50px;
+  border: none;
+  left:  190px;
+    bottom: 30px;
+    width: 100px;
+  height: 20px;
+  background-color: #4CAF50; /* Green */
+}
+
+.button2 {
+  position: absolute;
+  margin: -50px;
+  border: none;
+  left: 190px;
+  bottom: -30px;
+  width: 100px;
+  height: 20px;
+  background-color: #f44336; /*Red */
+}
+
+.button3{
+  position: absolute;
+  margin: -50px;
+  border: nonne;
+  left: 190px;
+  bottom: -90px;
+  width: 100px;
+  height: 20px;
+  background-color:  #808080; /*Gray */
+}
+
+
+/* membuat button finger,no finger, ontime, latetime */
+.button1-finger {
+  position: absolute;
+  margin: -20px;
+  border: none;
+  left: 400px;
+  bottom: 0px;
+  width: 80px;
+  height: 20px;
+  font-size: 14px;
+  color: black;
+  background-color: #FFFF00; /*yellow */
+}
+
+.button2-nofinger {
+  position: absolute;
+  margin: -20px;
+  border: none;
+  left: 610px;
+  bottom: 0px;
+  width: 80px;
+  height: 20px;
+  font-size: 14px;
+  color: black;
+  background-color: #808080; /*Gray */
+}
+
+.button3-latetime {
+  position: absolute;
+  margin: -20px;
+  border: none;
+  left: 840px;
+  bottom: 0px;
+  width: 80px;
+  height: 20px;
+  font-size: 14px;
+  color: black;
+  background-color: #f44336; /*Red */
+}
+
+.button4-ontime {
+  position: absolute;
+  margin: -20px;
+  border: none;
+  right: 230px;
+  bottom: 0px;
+  width: 80px;
+  height: 20px;
+  font-size: 14px;
+  color: black;
+  background-color: #46a049; /*Green */
+}
+
+
+/*membuat class border radius (lingkaran) finger,nofinger,latetime,ontime */
+
+.lingkaran1{
+      position: absolute;
+      margin: -20px;
+      border-radius: 50%;
+            border: 2px solid yellow;
+      left: 490px;
+      bottom: -20px;
+            width: 50px;
+            height: 50px;
+      background-color: #ffffff;
+        }
+
+  .lingkaran2{
+    position: absolute;
+    margin: -20px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    left: 700px;
+    bottom: -20px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+  }
+
+  .lingkaran3{
+    position: absolute;
+    margin: -20px;
+    border-radius: 50%;
+    border: 2px solid red;
+    left: 930px;
+    bottom: -20px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    }
+
+  .lingkaran4{
+    position: absolute;
+    margin: -20px;
+    border-radius: 50%;
+    border: 2px solid green;
+    left:1170px;
+    bottom: -20px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+  }
+
+
+
+.info-box {
+    position: absolute;
+    border: 1px solid #fff7f7;
+    height: 5%;
+    width: 1000px;
+    bottom: -250px;
+    left: 184px;
+  }
+
+/* button daily, weekly, finger, accumulation */
+.btn {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14;
+  cursor: pointer;
+}
+.daily{background-color: #4CAF50;} /* Green */
+.daily:hover {background-color: #46a049;}
+
+.weekly{background-color: #2196F3;} /* Blue */
+.weekly:hover {background: #0b7dda;}
+a{text-decoration: none;}
+
+
+.finger{background-color: #ff9800;} /* Orange */
+.finger:hover {background: #e68a00;}
+
+.accumulation{background-color: #f44336;} /* Red */
+.accumulation:hover {background: #da190b;}
+.counter {
+      margin-left: 12px;
+    color: #111;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
